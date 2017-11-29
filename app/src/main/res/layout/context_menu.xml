@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Add Marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddMarker"
+        android:textSize="18dp"
+        android:paddingBottom="18dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:text="Add Circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddCircle"
+        android:textSize="18dp"
+        android:layout_weight="2" />
+
+</LinearLayout>
